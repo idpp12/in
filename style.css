@@ -1,0 +1,309 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: monospace;
+    
+}
+#page1{
+    width: 100%;
+    height: 58vw;
+    background-color: rgb(255, 236, 239);
+    /* background-image: url("https://cdni.pornpics.com/460/5/105/41388695/41388695_005_2d1b.jpg"); */
+    background-image: url(./313602_6c8c8e9_600x_.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+#onenav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    /* background-color: skyblue; */
+    align-items: center;
+    justify-content:space-between ;
+    padding: 35px;
+}
+#nav-part1{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 13px;
+    gap: 30px;
+    white-space: nowrap; 
+}
+#nav-part1 h4{
+    margin-top: 5vw;
+    font-weight: 500;
+    color: #fff;
+    font-size: 15px;
+}
+
+#nav-part2{
+    width: 30%;
+    display: flex;
+    align-items:center ;
+    justify-content: flex-end;
+}
+#nav-part2 button{
+    margin: 10px 10px;
+    color: #fff;
+}
+#btn1{
+    padding: 10px 20px;
+    border-radius: 70px;
+    background-color: #c720ff;
+    color: white;
+    border: none;
+}
+#nav-part2 button:nth-child(1) {
+    background-color: transparent;
+    border: none;
+}
+#content{
+    height: calc(100% - 100px);
+    padding-top: 50px;
+}
+#content h3{
+    background-color:  #E0B7EF;
+    width: fit-content;
+    padding: 10px 17px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 50px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%) 
+}
+#content h1{ 
+    width: fit-content; 
+    color: #fff;
+    font-family: "Source Serif 4";
+    font-size: 50px;
+    font-weight: 500;
+    margin: 17px 0;
+    line-height: 55px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%) 
+}
+#content h2{
+   text-align: center;
+   font-size:16px;
+   color: #fff;
+   font-weight: 500;
+}
+#content button{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    background-color: #c720ff;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 17px 40px;
+    font-size: 13px;
+
+}
+#bottom{
+    height: 340px;
+    width: 100%;
+    padding: 5px;
+    margin-top: 13px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+#bottom::-webkit-scrollbar{
+    display: none;
+}
+.elem{
+    height: 100%;
+    width: 280px;
+    background-color: royalblue;
+    display: inline-block;
+    margin-right: 30px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.elem img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-position: center;
+
+}
+.elem video{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-position: center;
+
+}
+@media (max-width:600px) {
+    #page1{
+        width: 100%;
+        height: 225vw;
+        background-color: rgb(255, 236, 239);
+        /* background-image: url("https://cdni.pornpics.com/460/5/105/41388695/41388695_005_2d1b.jpg"); */
+        background-image: url(./313602_6c8c8e9_600x_.jpg);
+        background-size: cover;
+        background-position: 50%, 50%;
+        overflow-y: hidden;
+        overflow: hidden;
+    }
+    #onenav{
+    /* height: 100px; */
+    height: 29vw;
+    width: 100%;
+    display: flex;
+    /* background-color: skyblue; */
+    align-items: center;
+    justify-content:space-between ;
+    padding: 2vw; 
+    margin-top: 2vw;  
+    
+}
+#nav-part1{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    gap: 2vw;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap; 
+}
+#nav-part1 h4{
+    font-weight: 500;
+    color: #fff;
+    margin-top: 7vw;
+    font-size: 3.5vw;
+}
+#nav-part2{
+    width: 30%;
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    margin-left: 8vw;   
+}
+#nav-part2 button{
+    margin-bottom: 14vw;  
+    color: #fff;
+}
+#btn1{
+    padding: 2vw 3vw;
+    border-radius: 10vw;
+    background-color: #c720ff;
+    color: white;
+    border: none;
+    white-space: nowrap;   
+}
+#nav-part2 button:nth-child(1) {
+    background-color: transparent;
+    border: none;
+    white-space: nowrap;
+}
+#content{
+    height: calc(100% - 225vw);
+    padding-top: 2vw;
+    /* background-color: red; */
+}
+#content h3{
+    background-color:  #E0B7EF;
+    width: fit-content;
+    font-family: monospace;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 50px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%) 
+    
+}
+#content h1{ 
+    width: fit-content; 
+    color: #fff;
+    font-family: "Source Serif 4";
+    font-size: 8.9vw;
+    font-weight: 500;
+    margin: 5.5vw 0;
+    line-height: 8vw;
+    line-height: 13vw;
+    white-space: nowrap;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%) 
+}
+#content h2{
+   text-align: center;
+   font-size: 3vw;
+   color: #fff;
+   font-weight: 500;
+}
+#content button{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 8vw;
+    background-color: #c720ff;
+    color: #fff;
+    border: none;
+    border-radius: 15vw;
+    font-size: 4vw;
+
+}
+#bottom{
+    height: 100vw;
+    width: 100%;
+    padding:2vw;
+    margin-top: 5vw;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+#bottom::-webkit-scrollbar{
+    display: none;
+}
+.elem{
+    height: 100%;
+    width: 280px;
+    /* width: 80vw; */
+    display: inline-block;
+    margin-right: 30px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: pink;
+}
+.elem img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-position: center;
+
+}
+.elem video{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-position: center;
+
+}
+}
